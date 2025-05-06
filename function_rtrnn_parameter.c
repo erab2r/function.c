@@ -7,7 +7,10 @@ int sum(int a, int b)
 
 int main()
 {
-    int total_result = sum(10,15);
+    
+    int a,b;
+    scanf("%d %d",&a,&b);
+    int total_result = sum(a,b);
     printf("%d",total_result);
     return 0;
 }
